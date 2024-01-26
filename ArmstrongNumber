@@ -1,1 +1,15 @@
-
+class Solution {
+    static String armstrongNumber(int n){
+        // code here
+        int temp=n;
+        int result=0;
+        while(temp!=0){
+            int last=temp%10;
+            result=result+(last*last*last);
+            temp/=10;
+        }
+        if(result==n)
+         return "Yes";
+        return "No"; 
+    }
+}
