@@ -53,7 +53,8 @@ The given min Heap:
         /   \
       4      8
     /   \ 
-  11     13
+  11      13
+
 
 Max Heap after conversion:
 
@@ -61,7 +62,7 @@ Max Heap after conversion:
         /    \
       11      8
     /   \ 
-   3     4
+   3      4
  
 
 Your Task:
